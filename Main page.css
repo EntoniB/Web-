@@ -1,0 +1,132 @@
+.line
+{
+margin: 10px;
+  position: absolute;
+  z-index: 1;
+}
+.button-home
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+text-align: right;
+}
+#element::-webkit-scrollbar {
+  width: 10px;
+}
+
+#element::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+}
+
+#element::-webkit-scrollbar-thumb {
+  background-color: #356184;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                    color-stop(.5, rgba(255, 255, 255, .25)),
+                    color-stop(.5, transparent), to(transparent));
+}
+body,html
+{
+ padding: 0;
+ margin: 0;
+background-color: #34495E;#EC7105
+}
+#particles-js
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: 0;
+}
+
+h1
+{
+   padding: 0;
+ margin: 0;
+	text-align: center;
+   position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+ font-family: Times, Times New Roman, serif;
+}
+ul
+{
+  padding: 0;
+ margin: 0;
+}
+#end
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+select
+{
+  opacity: 0.0;
+}
+#header
+{
+   padding: 0;
+ margin: 0;
+  background-color: #323232;
+
+ position: relative;
+}
+p
+{
+  font-family:  Times, Times New Roman, serif;
+}
+
+h3
+{
+	text-align: center;
+   font-family:  Times, Times New Roman, serif;
+}
+.panel
+{
+	  display: inline-block;
+    min-height: 50px;
+    background-color:#D76806;
+    margin: 10px;
+    padding: 10px; 
+    display:grid;
+   
+}
+.panel1 {
+    min-width: 100px;
+    width: 850px;
+    text-align:center;
+     height: 380px;
+        margin-left: 18%;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.8);
+        position: relative;
+        z-index: 1;
+}
+.panel2 {
+    min-width: 100px;
+    width: 850px;
+    text-align:center;
+     height: 280px;
+        margin-left: 18%;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.8);
+        position: relative;
+        z-index: 1;
+}
+
+.button
+{
+text-transform: uppercase;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background: transparent; /* no background! */
+  border: 3px solid white;
+  border-radius: 100px;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.25));
+   z-index: 2;
+   position: relative;
+}
